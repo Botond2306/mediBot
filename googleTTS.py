@@ -4,7 +4,7 @@ from google.cloud import texttospeech
 import time
 
 # Set the environment variable for Google Application Credentials
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "D:\dhbw rodulf mod projekt\imposing-volt-450719-s2-a1ab0a9f58ff.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "Insert Credentials Path"
 
 def synthesize_text(text):
     """Synthesizes speech from the input string of text."""
